@@ -20,6 +20,7 @@ body > div {
 
 .header-secondary-text {
     font-size: 18px;
+    font-weight: 100;
     color: #E5E7EB;
 }
 
@@ -36,7 +37,7 @@ a.header-secondary-text {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding-top: 12px;
+    padding-top: 16px;
     padding-bottom: 100px;
 }
 
@@ -45,4 +46,31 @@ a.header-secondary-text {
     justify-content: space-around;
     align-items: center;
     gap: 24px;
+}
+
+.head {
+    display: flex;
+    gap: 60px;
+    padding-bottom: 100px;
+}
+
+.head-image {
+    width: 540px;
+    background-color: #6d747d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 30px;
+    font-size: 16px;
+    margin-top: 16px;
 }
